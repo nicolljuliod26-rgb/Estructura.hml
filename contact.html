@@ -53,52 +53,75 @@
 
     </header>
     <main>
-        <section>
+        <section  class="contac-hero">
             <div>
-                <h1> contacto.</h1>
-                <p>Ponte en contacto conmigo a través de las redes sociales
-                 o envíame un correo electrónico.</p>
-                 <nav>
-                    <a href="https://x.com/AdhamDannaway">Gorjeo</a>
-                    <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQH3-siE92Gf_gAAAZx-UiaY-s3FgVESMuoCdKA4slezG0lPBSF4Tud8prbkejAPkF6z_yRGX7gvVRLROsDnV9-s2UcjUR0JY4Io-WkqQada_lCKtfFp-UZwJpUC70wmDa-vHNU=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fadhamdannaway">Facebook</a>
-                    <a href="https://www.facebook.com/iLikeAdham/">Linkedin</a>
-                    <a href="nstagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fadham.dannaway&is_from_rle">instagram</a>
-                 </nav>
-            </div>
+                <h1 class="titulo-contact"> contact.</h1>
+                <p class="contact-parrafo">Get in touch with me via social media or send me an email.</p>
+
+                 <nav class="contac-social">
+                    <a href="https://x.com/AdhamDannaway">
+                    <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                    <a href="https://www.facebook.com/iLikeAdham/">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="https://au.linkedin.com/in/adhamdannaway">
+                   <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                   <a href="https://www.instagram.com/adham.dannaway">
+                  <i class="fab fa-instagram"></i> Instagram
+        </a>
+      </nav>
+    </div>
+     <img src="img/imageninicio.jpg" alt="contact">
         </section>
 
-        <section>
-            <h2>Envíame un correo electrónico</h2>
-            <form>
-                <label>Nombre</label> 
+        <hr>
+
+        <section class="contact-cuadros">
+            <h2 class="contact-subtituloa">Send me an email</h2>
+            <form class="contact-form">
+                <div>
+                <label class="contac-nombre">Name</label> 
                 <input type="text" name="Nombre" minlength="10" required>
+                </div>
 
-                <label>Correo electrónico</label>
+                <div>
+                <label class="contac-correo">Email</label>
                 <input type="email" name="correo" required>
+                </div>
+                
+                <div>
+                <label class="contact-mensaje">Messaje</label>
+                <input type="Messahe" name="Messaje" required>
+                </div>
 
-                <label>Mensaje</label>
-                <textarea>"Mensaje"</textarea required>
-
-                <button type="submit">Enviar correo electrónico</button>
+                <button type="submit">Send Email</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <a href="#top">&#8679;</a>
 
-        <a href="Index.html">&copy; 2026 AdhamDannaway</a>
+        <span class="footer-copy">© 2026 Nicoll Dahiana</span>
+        
+  <a href="#top" class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </a>
 
-        <nav>
-            <a href="Index.html"></a>
-            <a href="acercade.html">acercade</a>
-            <a href="aprender.html">aprender<a>
-            <a href="cartera/index.html">cartera</a>
-            <a href="blog.html">blog</a>
-            <a href="contacto.html">contacto</a>
+  
+
+        <nav class="footer-nav">
+            <a href="acercade.html">about</a>
+            <a href="aprender.html">learn</a>
+            <a href="cartera.html">portfolio</a>
+            <a href="blog/index.html">blog</a>
+            <a href="contacto.html">contact</a>
         </nav>
-
-    </footer>
+    </div>
+</footer>
     
 </body>
 </html>
